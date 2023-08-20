@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Signika&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Down {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 100px 0;
+    background-color: black;
+    color: #fff;
+}
+
+.Down img {
+    border: solid 2px white;
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: rgb(151, 10, 216);
+    color: #fff;
+    padding: 8px 0;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.logo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    font-family: 'Signika', sans-serif;
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #FF5733;
+}
+
+.books {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.book {
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.book img {
+    max-width: 100px;
+}
+
+.cta {
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 100px 0;
+}
+
+.button {
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: peru;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    padding: 18px 0;
+    background-color: rgb(151, 10, 216);
+    color: #fff;
+}
